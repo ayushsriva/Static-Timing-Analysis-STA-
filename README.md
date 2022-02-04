@@ -17,7 +17,6 @@ ASIC Design Flow:
 	It is conservative in nature.
 
 •	Types of timing paths:
-
 	Input to ouput
 	Input to Reg
 	Reg to Reg
@@ -36,17 +35,27 @@ ASIC Design Flow:
 
 •	Files required for STA: Design netlist, constraint file, and library file.
 ![20220204_223020](https://user-images.githubusercontent.com/98880516/152573059-79d1ef73-bff3-46e9-aafc-a989e89dfc89.jpg)
+
 •	Opening the design file using leafpad command:  leafpad simple.v
 In this, we find cells instantiations:
+
 ![20220204_223446](https://user-images.githubusercontent.com/98880516/152573255-c6d91514-e837-4547-a4ef-5e25745fb9aa.jpg)
+
 •	Opening the library file using leafpad command:  leafpad osu018_stdcells.lib.
 In this we find the cells information:
+
 ![20220204_223746](https://user-images.githubusercontent.com/98880516/152573536-afe35eca-83cf-434c-830c-26cc58decb05.jpg)
+
 •	Opening the constraint  file using leafpad command:  leafpad simple.sdc
 In this, we find various constraints:
+
 ![20220204_224041](https://user-images.githubusercontent.com/98880516/152573725-38c8352c-0a60-4daa-8a19-82afc5d615a8.jpg)
+
 •	Opening the runscript using leafpad command: leafpad run.tcl
 In this, we find all the commands to execute STA:
+
 ![20220204_224215](https://user-images.githubusercontent.com/98880516/152573994-9e796b04-093d-4421-88d8-e73356b2b9ae.jpg)
+
 •	Command to run: ot-shell -i run.tcl -o opentimer.log
+
 ![Screenshot (985)](https://user-images.githubusercontent.com/98880516/152161941-d2cc4190-8049-42aa-bdf3-158f365bcbac.png)
