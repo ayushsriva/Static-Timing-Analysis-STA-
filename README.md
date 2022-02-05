@@ -10,7 +10,7 @@ As we know that how much timing plays a very important role in meeting the desig
                                                            **ASIC Design Flow:**
 <img width="397" alt="bg1a" src="https://user-images.githubusercontent.com/98880516/152572049-4d8c543b-504f-44e8-86fc-6d9f647c8dd0.png">
 
-## Day 1
+## Day 1:
 -	What is Static Timing Analysis:  Static Timing Analysis is a method of verifying timing performance of the design.
 1. Features of STA :
    - It is static in nature.
@@ -66,7 +66,7 @@ In this, we find all the commands to execute STA:
 
 In above images, we can analyse the startpoint, endpoint, required time, data arrival time, slack, max/min analysis and whether the path is violated or not.
 
-## Day 2
+## Day 2:
 - Apart from setup and hold checks, there are various other types of checks like clock gating checks, asynchronous pin checks and pulse width checks.
 - Slew: It is the transistion from 0 to 1 or 1 to 0 from 70% to 30% or 30% to 70% respectively of the supply.
       - Rise Slew: It is the transistion from 1 to 0 from 30% to 70%
@@ -76,7 +76,7 @@ In above images, we can analyse the startpoint, endpoint, required time, data ar
 - Latch Based designs allow more flexibility in timing meaning that we can borrow timing from latch to meet the timing whether it will be setup or hold but this is not possible in case of flip flops.
 - STA text report contains the lots of information in it.
 
-## Lab 2
+## Lab 2:
 - Understanding of Liberty(.lib) file. It contains the name of library, technology name, units and operating conditions.
 
 - In liberty cell file name, there is cell name, power pin name, leakage power under various conditions, pin name and its direction, and pin capacitance.
@@ -104,4 +104,22 @@ In the above image, we can see loading libraries, loading netlist, loading sdc, 
 - We can increase the report timing paths by command: report_timing -num_paths 25.
 
 
-# Day3
+# Day 3
+- If there are multiple clocks in our design then we can do most restrictive setup and most restrictive hold analysis.
+- There are generally four types of arcs:
+      - Cell arc
+      - Net arc
+      - Sequential arc
+      - Combinational arc
+ - There are three types of timing sense:
+      - Positive unate: If input is rising/falling then output must be rising/falling respectively.
+      - Negative unate: If input is rising/falling then output must be falling/rising respectively.
+      - Non unate: If input is rising/falling, then output can be falling or rising respectively.
+ - Cell propagation delay is the difference between the input and output signal of 50% of its value.
+ - Skew: Difference in arrival time of clocks.
+ - Positive clock skew helps in setup check while negative clock skew helps in hold check.
+ - Clock latency = source latency + newtork latency.
+ - Clock jitter means uncertainity in clock.
+
+# Lab 3:
+- Run ‘ot-shell –i run.tcl –o out.txt’
