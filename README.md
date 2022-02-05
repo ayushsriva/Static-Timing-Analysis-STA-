@@ -17,17 +17,17 @@ As we know that how much timing plays a very important role in meeting the desig
   - Doesn’t verify logic functionality.
   - It is conservative in nature.
 
-•	Types of timing paths:
-	Input to ouput
-	Input to Reg
-	Reg to Reg
-	Output to Reg
-•	Startpoint:  Usually input port or clock pin of flop/register.
-•	Endpoint:  Usually output port or register data pin.
-•	Hold Check:  It is time time required after the active transition of a clock so, the data has to be maintained at stable state.
-•	Setup Check:  It is time time required before the active transition of a clock so, the data has to be maintained at stable state.
-•	Slack time: The difference between the arrival time and the required time. For setup analysis, arrival time <= required time. For hold analysis,  arrival time >= required time.
-•	Constraints  required for timing: 
+2. Types of timing paths:
+   - Input to ouput
+	 - Input to Reg
+   - Reg to Reg
+	 - Output to Reg
+3.	Startpoint:  Usually input port or clock pin of flop/register.
+4.	Endpoint:  Usually output port or register data pin.
+5.	Hold Check:  It is time time required after the active transition of a clock so, the data has to be maintained at stable state.
+6.	Setup Check:  It is time time required before the active transition of a clock so, the data has to be maintained at stable state.
+7.	Slack time: The difference between the arrival time and the required time. For setup analysis, arrival time <= required time. For hold analysis,  arrival time >= required time.
+8.	Constraints  required for timing: 
 
 
 ## Lab1:
