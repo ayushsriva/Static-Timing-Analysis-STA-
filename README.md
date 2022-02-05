@@ -6,16 +6,16 @@ Back-end involves Floorplanning, Place & Route, Post-layout STA and Signoff.
 As we know that how much timing plays a very important role in meeting the design in Static Timing Analysis(STA). So, STA plays a vital role in the ASIC flow. It involves lots of things to learn and understand in STA which motivates me to attend this workshop.**
 
 
-####ASIC Design Flow:
+                                                           **ASIC Design Flow:**
 <img width="397" alt="bg1a" src="https://user-images.githubusercontent.com/98880516/152572049-4d8c543b-504f-44e8-86fc-6d9f647c8dd0.png">
 
 ## Day 1
 -	What is Static Timing Analysis:  Static Timing Analysis is a method of verifying timing performance of the design.
 -	Features of STA :
- -It is static in nature.
- -It is exhaustive.
- -Doesn’t verify logic functionality.
- -It is conservative in nature.
+  - It is static in nature.
+  - It is exhaustive.
+  - Doesn’t verify logic functionality.
+  - It is conservative in nature.
 
 •	Types of timing paths:
 	Input to ouput
