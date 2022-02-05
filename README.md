@@ -6,6 +6,7 @@ Back-end involves Floorplanning, Place & Route, Post-layout STA and Signoff.
 As we know that how much timing plays a very important role in meeting the design in Static Timing Analysis(STA). So, STA plays a vital role in the ASIC flow. It involves lots of things to learn and understand in STA which motivates me to attend this workshop.**
 
 
+
                                                            **ASIC Design Flow:**
 <img width="397" alt="bg1a" src="https://user-images.githubusercontent.com/98880516/152572049-4d8c543b-504f-44e8-86fc-6d9f647c8dd0.png">
 
@@ -60,3 +61,7 @@ In this, we find all the commands to execute STA:
 •	Command to run: ot-shell -i run.tcl -o opentimer.log
 
 ![Screenshot (985)](https://user-images.githubusercontent.com/98880516/152161941-d2cc4190-8049-42aa-bdf3-158f365bcbac.png)
+
+![Screenshot (987)](https://user-images.githubusercontent.com/98880516/152633019-5af4cdce-4ca6-4e3d-93a5-ebf2d56886d8.png)
+
+In above images, we can analyse the startpoint, endpoint, required time, data arrival time, slack, max/min analysis and whether the path is violated or not.
