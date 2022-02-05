@@ -9,12 +9,12 @@ ASIC Design Flow:
 <img width="397" alt="bg1a" src="https://user-images.githubusercontent.com/98880516/152572049-4d8c543b-504f-44e8-86fc-6d9f647c8dd0.png">
 
 **Day 1**
-•	What is Static Timing Analysis:  Static Timing Analysis is a method of verifying timing performance of the design.
-•	Features of STA :
-	It is static in nature.
-	It is exhaustive.
-	Doesn’t verify logic functionality.
-	It is conservative in nature.
+-	What is Static Timing Analysis:  Static Timing Analysis is a method of verifying timing performance of the design.
+-	Features of STA :
+ -It is static in nature.
+ -It is exhaustive.
+ -Doesn’t verify logic functionality.
+ -It is conservative in nature.
 
 •	Types of timing paths:
 	Input to ouput
