@@ -11,7 +11,7 @@ As we know that how much timing plays a very important role in meeting the desig
 
 ## Day 1
 -	What is Static Timing Analysis:  Static Timing Analysis is a method of verifying timing performance of the design.
--	Features of STA :
+1.	Features of STA :
   - It is static in nature.
   - It is exhaustive.
   - Doesn’t verify logic functionality.
