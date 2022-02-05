@@ -11,17 +11,17 @@ As we know that how much timing plays a very important role in meeting the desig
 
 ## Day 1
 -	What is Static Timing Analysis:  Static Timing Analysis is a method of verifying timing performance of the design.
-1.	Features of STA :
-  - It is static in nature.
-  - It is exhaustive.
-  - Doesn’t verify logic functionality.
-  - It is conservative in nature.
+1. Features of STA :
+   - It is static in nature.
+   - It is exhaustive.
+   - Doesn’t verify logic functionality.
+   - It is conservative in nature.
 
 2. Types of timing paths:
-   - Input to ouput
-	 - Input to Reg
-   - Reg to Reg
-	 - Output to Reg
+    - Input to ouput
+    - Input to Reg
+    - Reg to Reg
+    - Output to Reg
 3.	Startpoint:  Usually input port or clock pin of flop/register.
 4.	Endpoint:  Usually output port or register data pin.
 5.	Hold Check:  It is time time required after the active transition of a clock so, the data has to be maintained at stable state.
