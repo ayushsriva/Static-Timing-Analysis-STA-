@@ -31,7 +31,7 @@ As we know that how much timing plays a very important role in meeting the desig
 8.	Constraints  required for timing: 
 
 
-## Lab1:
+## Lab:
 •	Understanding of Open timer tool:  It is a Static Timing Analysis tool which is used to perform the timing checks like hold,  setup check and various other checks.
 ![20220204_222640](https://user-images.githubusercontent.com/98880516/152572709-95fced92-ec02-4042-9b17-8ec8074b369f.jpg)
 
@@ -76,7 +76,7 @@ In above images, we can analyse the startpoint, endpoint, required time, data ar
 - Latch Based designs allow more flexibility in timing meaning that we can borrow timing from latch to meet the timing whether it will be setup or hold but this is not possible in case of flip flops.
 - STA text report contains the lots of information in it.
 
-## Lab 2:
+## Lab:
 - Understanding of Liberty(.lib) file. It contains the name of library, technology name, units and operating conditions.
 
 - In liberty cell file name, there is cell name, power pin name, leakage power under various conditions, pin name and its direction, and pin capacitance.
@@ -121,7 +121,7 @@ In the above image, we can see loading libraries, loading netlist, loading sdc, 
  - Clock latency = source latency + newtork latency.
  - Clock jitter means uncertainity in clock.
 
-# Lab 3:
+# Lab:
 - Run ‘ot-shell –i run.tcl –o out.txt’
 
 - Type ‘leafpad out.txt’ the slack reported for the path is -212.323
@@ -136,14 +136,33 @@ In the above image, we can see loading libraries, loading netlist, loading sdc, 
 - Clock gating checks are necessary to avoid the large power dissipation when clock is not in use in our design
 - Asyn pin checks are necessary to avoid unknown state.
 
-# Lab 4:
-- In this lab, open the file using ‘leafpad run.tcl’ for clock gating check.
+# Lab:
+- In this goto lab6 by command "cd lab6", open the file using ‘leafpad run.tcl’ for clock gating check.
 
 - In the above file, RAT can be identified using command ‘report_rat’ and AT can be identified using command ‘report_at’ and Slack can be identified using command ‘report_slack'.
 
-- open the file using ‘leafpad run.tcl' from lab7 for async pin check
+- open the file using ‘leafpad run.tcl' from lab7 for async pin check.
 
 - In the above file, RAT can be identified using command ‘report_rat’ and AT can be identified using command ‘report_at’ and Slack can be identified using command ‘report_slack'.
 
 # Day 5:
-- 
+- In case of synchnonous clocks, events can happen at a fixed phase relation while in case of asynchnonous clocks, events can't happen at a fixed phase relation.
+- There are various clock properties such as clock transition, clock uncertainity, clock latency, clock sense, and ideal network.
+- We can specify various paths by using -through, -to and -from options. There are various types of paths like fallse paths, multicycle paths and many more.
+
+# Lab:
+- Goto the lab4 by doing "cd lab4".
+- Run ‘ot-shell –i run.tcl –o out.txt’
+
+- Open the out.txt by command ‘leafpad out.txt’
+
+- In the above image, we can find 6.585 is the CPPR.
+-In Engineering Change order(ECO), we perform various analysis one by one for every check which we need to close but not closed till PnR stage. There are specialized signoff tools that help us to analyze the issue and also suggest the changes we need to do in order to close the issue. The suggested change is captured in an eco file.
+- For ECO, goto lab5 by doing " cd lab5" and Open ‘run.tcl’
+
+- Run ‘ot-shell –I run.tcl –o out.txt’.
+
+We can see from the above image, slack has been increased now.
+
+
+
