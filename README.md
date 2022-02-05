@@ -87,5 +87,21 @@ In above images, we can analyse the startpoint, endpoint, required time, data ar
 
 - In this simple_Late.lib file, we can find there are 3 pins of cell NAND2_X1.
 
--
+- There are differences in cell_fall, fall_transition, cell_rise, and rise_transition values of a cell between the files simple_Late.lib and simple_Early.lib.
 
+- We can parse the spef by the command  "read_spef" in open timer tool.
+
+- Running ‘ot-shell –i run.tcl --log ot-shell.log’. 
+
+In the above image, we can see loading libraries, loading netlist, loading sdc, loading spef and enable cppr analysis. Here "I" stands for information
+
+- By doing report_timing command, we can do timing report on the design
+- report_timing -num_paths 5 means we can do report timing on 5 paths.
+- 
+- Running ‘ot-shell –i run.tcl –o out.txt’
+- Open ‘leafpad out.txt’
+
+- We can increase the report timing paths by command: report_timing -num_paths 25.
+
+
+# Day3
