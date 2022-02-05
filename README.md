@@ -123,3 +123,27 @@ In the above image, we can see loading libraries, loading netlist, loading sdc, 
 
 # Lab 3:
 - Run ‘ot-shell –i run.tcl –o out.txt’
+
+- Type ‘leafpad out.txt’ the slack reported for the path is -212.323
+- By seeing the above image, we can find, the slack reported for this path F1:CK→U3→U4→U6:A2→U7:A1→F2:D
+
+- If we change the no. of reporting paths to 100 by command " report_timing -num_paths 100, then we can see there are different paths reported but not 100 since, in our design there are not 100 paths. 
+
+# Day 4:
+- Crosstalk: Noise caused by coupling of switching activity of the victim with switching activity of aggressors.
+- A steady signal net can have a glitch due to charge transfered by switching.
+- Global prcoess variation means the random and systematic variations which may occur in the chip. This chip may include On Chip Variation(OCV) effects.
+- Clock gating checks are necessary to avoid the large power dissipation when clock is not in use in our design
+- Asyn pin checks are necessary to avoid unknown state.
+
+# Lab 4:
+- In this lab, open the file using ‘leafpad run.tcl’ for clock gating check.
+
+- In the above file, RAT can be identified using command ‘report_rat’ and AT can be identified using command ‘report_at’ and Slack can be identified using command ‘report_slack'.
+
+- open the file using ‘leafpad run.tcl' from lab7 for async pin check
+
+- In the above file, RAT can be identified using command ‘report_rat’ and AT can be identified using command ‘report_at’ and Slack can be identified using command ‘report_slack'.
+
+# Day 5:
+- 
