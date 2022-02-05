@@ -7,7 +7,7 @@ As we know that how much timing plays a very important role in meeting the desig
 
 
                                                           ASIC Design Flow:
-                  <img width="397" alt="bg1a" src="https://user-images.githubusercontent.com/98880516/152572049-4d8c543b-504f-44e8-86fc-6d9f647c8dd0.png">
+<img width="397" alt="bg1a" src="https://user-images.githubusercontent.com/98880516/152572049-4d8c543b-504f-44e8-86fc-6d9f647c8dd0.png">
 
 ## Day 1
 -	What is Static Timing Analysis:  Static Timing Analysis is a method of verifying timing performance of the design.
