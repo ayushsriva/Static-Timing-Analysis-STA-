@@ -65,3 +65,27 @@ In this, we find all the commands to execute STA:
 ![Screenshot (987)](https://user-images.githubusercontent.com/98880516/152633019-5af4cdce-4ca6-4e3d-93a5-ebf2d56886d8.png)
 
 In above images, we can analyse the startpoint, endpoint, required time, data arrival time, slack, max/min analysis and whether the path is violated or not.
+
+## Day 2
+- Apart from setup and hold checks, there are various other types of checks like clock gating checks, asynchronous pin checks and pulse width checks.
+- Slew: It is the transistion from 0 to 1 or 1 to 0 from 70% to 30% or 30% to 70% respectively of the supply.
+      - Rise Slew: It is the transistion from 1 to 0 from 30% to 70%
+      - Fall Slew: It is the transistion from 0 to 1 from 70% to 30%
+      
+- Load Analysis depends upon min and max capacitance on ports and pins and fanout load on ports and output pins.
+- Latch Based designs allow more flexibility in timing meaning that we can borrow timing from latch to meet the timing whether it will be setup or hold but this is not possible in case of flip flops.
+- STA text report contains the lots of information in it.
+
+## Lab 2
+- Understanding of Liberty(.lib) file. It contains the name of library, technology name, units and operating conditions.
+
+- In liberty cell file name, there is cell name, power pin name, leakage power under various conditions, pin name and its direction, and pin capacitance.
+
+- In this lab, we find early and late libraries file, we can open these file using "leafpad" command.
+
+- By analysing the simple_Late.lib file, we can find there 211 cells in this.
+
+- In this simple_Late.lib file, we can find there are 3 pins of cell NAND2_X1.
+
+-
+
