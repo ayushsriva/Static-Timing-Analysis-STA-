@@ -1,13 +1,13 @@
 
 # Static Timing Analysis(STA) Workshop: Basics to Advanced
-**Motivation to attend workshop **:  As we are seeing that the semiconductor industries are growing at a very faster rate. After some years later, it is going to be a boom of semiconductor industries. In VLSI, there are generally two types of domain namely front-end and back-end.
+**Motivation to attend workshop **: ** As we are seeing that the semiconductor industries are growing at a very faster rate. After some years later, it is going to be a boom of semiconductor industries. In VLSI, there are generally two types of domain namely front-end and back-end.
 Front-end involves marketing Analysis, Design Entry, Simulation, Verification, Synthesis and Pre-layout STA.
 Back-end involves Floorplanning, Place & Route, Post-layout STA and Signoff.
-As we know that how much timing plays a very important role in meeting the design in Static Timing Analysis(STA). So, STA plays a vital role in the ASIC flow. It involves lots of things to learn and understand in STA which motivates me to attend this workshop.
+As we know that how much timing plays a very important role in meeting the design in Static Timing Analysis(STA). So, STA plays a vital role in the ASIC flow. It involves lots of things to learn and understand in STA which motivates me to attend this workshop.**
 
 
-<img width="397" alt="bg1a" src="https://user-images.githubusercontent.com/98880516/152572049-4d8c543b-504f-44e8-86fc-6d9f647c8dd0.png">
-ASIC Design Flow:
+                                                          ASIC Design Flow:
+                                                          <img width="397" alt="bg1a" src="https://user-images.githubusercontent.com/98880516/152572049-4d8c543b-504f-44e8-86fc-6d9f647c8dd0.png">
 
 ## Day 1
 -	What is Static Timing Analysis:  Static Timing Analysis is a method of verifying timing performance of the design.
