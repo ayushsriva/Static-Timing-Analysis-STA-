@@ -79,27 +79,47 @@ In above images, we can analyse the startpoint, endpoint, required time, data ar
 ## Lab:
 - Understanding of Liberty(.lib) file. It contains the name of library, technology name, units and operating conditions.
 
+![20220205_133151](https://user-images.githubusercontent.com/98880516/152677033-650ded35-bd1e-4a7b-9e1a-d07ff63e9a78.jpg)
+
+![20220205_133204](https://user-images.githubusercontent.com/98880516/152677131-3ba3ec78-91ab-4154-9f1a-577a9e9dfa31.jpg)
+
 - In liberty cell file name, there is cell name, power pin name, leakage power under various conditions, pin name and its direction, and pin capacitance.
 
 - In this lab, we find early and late libraries file, we can open these file using "leafpad" command.
 
 - By analysing the simple_Late.lib file, we can find there 211 cells in this.
 
+![20220205_134609](https://user-images.githubusercontent.com/98880516/152677263-52c1ac33-c682-4a4a-80e6-b0d7b5069e74.jpg)
+
 - In this simple_Late.lib file, we can find there are 3 pins of cell NAND2_X1.
+
+![20220205_134929](https://user-images.githubusercontent.com/98880516/152677355-b70db870-77d4-47a8-8072-3d631e1e46b8.jpg)
+
+![20220205_134957](https://user-images.githubusercontent.com/98880516/152677459-1c1cbabd-9773-46cd-849e-783fab44a6c1.jpg)
+
+![20220205_135053](https://user-images.githubusercontent.com/98880516/152677548-4838da14-80e4-4719-9f73-a88f2e281b09.jpg)
 
 - There are differences in cell_fall, fall_transition, cell_rise, and rise_transition values of a cell between the files simple_Late.lib and simple_Early.lib.
 
 - We can parse the spef by the command  "read_spef" in open timer tool.
 
 - Running ‘ot-shell –i run.tcl --log ot-shell.log’. 
+- 
+![20220205_140716](https://user-images.githubusercontent.com/98880516/152677765-fe21f331-12e1-41d0-af17-3e5e7c2f17df.jpg)
+
+
+![20220205_140156](https://user-images.githubusercontent.com/98880516/152677704-b9d67ae1-39f1-46f8-beb3-428e0f602d82.jpg)
 
 In the above image, we can see loading libraries, loading netlist, loading sdc, loading spef and enable cppr analysis. Here "I" stands for information
 
+
 - By doing report_timing command, we can do timing report on the design
 - report_timing -num_paths 5 means we can do report timing on 5 paths.
-- 
+
 - Running ‘ot-shell –i run.tcl –o out.txt’
 - Open ‘leafpad out.txt’
+
+![20220206_164625](https://user-images.githubusercontent.com/98880516/152677945-8dd52f62-6629-43bc-a61f-9e9b2af1ba58.jpg)
 
 - We can increase the report timing paths by command: report_timing -num_paths 25.
 
