@@ -208,5 +208,7 @@ In the above image, we can see loading libraries, loading netlist, loading sdc, 
 
 We can see from the above image, slack has been increased now.
 
+# Special Thanks to:
+
 
 
