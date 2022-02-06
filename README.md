@@ -188,13 +188,20 @@ In the above image, we can see loading libraries, loading netlist, loading sdc, 
 - Goto the lab4 by doing "cd lab4".
 - Run ‘ot-shell –i run.tcl –o out.txt’
 
+![20220205_152244](https://user-images.githubusercontent.com/98880516/152678940-81c95f30-a9cf-4e38-a867-be9d84b495d5.jpg)
+
 - Open the out.txt by command ‘leafpad out.txt’
+![20220205_152047](https://user-images.githubusercontent.com/98880516/152678878-4b590c7f-14af-4c13-af3a-cb7d6075f87d.jpg)
 
 - In the above image, we can find 6.585 is the CPPR.
 -In Engineering Change order(ECO), we perform various analysis one by one for every check which we need to close but not closed till PnR stage. There are specialized signoff tools that help us to analyze the issue and also suggest the changes we need to do in order to close the issue. The suggested change is captured in an eco file.
 - For ECO, goto lab5 by doing " cd lab5" and Open ‘run.tcl’
 
+![20220205_152811](https://user-images.githubusercontent.com/98880516/152679045-7117fa19-e169-4b85-9679-6826d2b855ec.jpg)
+
 - Run ‘ot-shell –I run.tcl –o out.txt’.
+
+![20220205_152941](https://user-images.githubusercontent.com/98880516/152679098-65e0e2a6-96dd-4143-aaeb-efa97369cdf3.jpg)
 
 We can see from the above image, slack has been increased now.
 
