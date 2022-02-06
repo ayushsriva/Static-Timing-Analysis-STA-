@@ -11,7 +11,8 @@ As we know that how much timing plays a very important role in meeting the desig
 <img width="397" alt="bg1a" src="https://user-images.githubusercontent.com/98880516/152572049-4d8c543b-504f-44e8-86fc-6d9f647c8dd0.png">
 
 ## Day 1:
--	What is Static Timing Analysis:  Static Timing Analysis is a method of verifying timing performance of the design.
+-	What is Static Timing Analysis:  Static Timing Analysis is a method of verifying timing performance of the design. Also, it is the process of adding the cell delays and the net delays to obtain the path delays and of comprising the path delays to timing specification and then compare to timing constraints.
+
 1. Features of STA :
    - It is static in nature.
    - It is exhaustive.
@@ -28,7 +29,7 @@ As we know that how much timing plays a very important role in meeting the desig
 5.	Hold Check:  It is time time required after the active transition of a clock so, the data has to be maintained at stable state.
 6.	Setup Check:  It is time time required before the active transition of a clock so, the data has to be maintained at stable state.
 7.	Slack time: The difference between the arrival time and the required time. For setup analysis, arrival time <= required time. For hold analysis,  arrival time >= required time.
-8.	Constraints  required for timing: 
+8.	Constraints  required for timing: There are various constraints like clock constraints, power constraints, external constraints, environmental constraints, net delay constraints and design rule constraints.
 
 
 ## Lab:
