@@ -169,9 +169,13 @@ In the above image, we can see loading libraries, loading netlist, loading sdc, 
 # Lab:
 - In this goto lab6 by command "cd lab6", open the file using ‘leafpad run.tcl’ for clock gating check.
 
+![20220205_145535](https://user-images.githubusercontent.com/98880516/152678701-6e419628-0ce7-4120-b7ed-490ffd3ba42c.jpg)
+
 - In the above file, RAT can be identified using command ‘report_rat’ and AT can be identified using command ‘report_at’ and Slack can be identified using command ‘report_slack'.
 
 - open the file using ‘leafpad run.tcl' from lab7 for async pin check.
+
+![20220205_145921](https://user-images.githubusercontent.com/98880516/152678771-afe0c3da-e652-4662-9f59-791f0da946fc.jpg)
 
 - In the above file, RAT can be identified using command ‘report_rat’ and AT can be identified using command ‘report_at’ and Slack can be identified using command ‘report_slack'.
 
