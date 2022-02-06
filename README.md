@@ -104,7 +104,7 @@ In above images, we can analyse the startpoint, endpoint, required time, data ar
 - We can parse the spef by the command  "read_spef" in open timer tool.
 
 - Running ‘ot-shell –i run.tcl --log ot-shell.log’. 
-- 
+
 ![20220205_140716](https://user-images.githubusercontent.com/98880516/152677765-fe21f331-12e1-41d0-af17-3e5e7c2f17df.jpg)
 
 
@@ -144,10 +144,20 @@ In the above image, we can see loading libraries, loading netlist, loading sdc, 
 # Lab:
 - Run ‘ot-shell –i run.tcl –o out.txt’
 
+![20220205_143057](https://user-images.githubusercontent.com/98880516/152678130-2dd8df6b-c37e-41a9-81bb-13e6a9e5889e.jpg)
+
 - Type ‘leafpad out.txt’ the slack reported for the path is -212.323
+
+![20220205_143123](https://user-images.githubusercontent.com/98880516/152678218-bbf17e19-80bf-466e-b61d-443b969ff35f.jpg)
+
 - By seeing the above image, we can find, the slack reported for this path F1:CK→U3→U4→U6:A2→U7:A1→F2:D
 
 - If we change the no. of reporting paths to 100 by command " report_timing -num_paths 100, then we can see there are different paths reported but not 100 since, in our design there are not 100 paths. 
+
+![20220205_144028](https://user-images.githubusercontent.com/98880516/152678351-2f37fb77-efc6-4edc-9e37-7c596753ea77.jpg)
+
+![20220205_144102](https://user-images.githubusercontent.com/98880516/152678494-09b7addc-8e91-4ec1-a206-65f940f7de1c.jpg)
+
 
 # Day 4:
 - Crosstalk: Noise caused by coupling of switching activity of the victim with switching activity of aggressors.
