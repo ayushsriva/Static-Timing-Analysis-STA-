@@ -11,6 +11,7 @@ As we know that how much timing plays a very important role in meeting the desig
 <img width="397" alt="bg1a" src="https://user-images.githubusercontent.com/98880516/152572049-4d8c543b-504f-44e8-86fc-6d9f647c8dd0.png">
                             Reference: https://fdocuments.in/reader/full/advanced-asic-chip-synthesis-bhatnagar
 
+
 ## Day 1:
 -	What is Static Timing Analysis:  Static Timing Analysis is a method of verifying timing performance of the design. Also, it is the process of adding the cell delays and the net delays to obtain the path delays and of comprising the path delays to timing specification and then compare to timing constraints.
 
