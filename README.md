@@ -219,8 +219,8 @@ We can see from the above image, slack has been increased now.
 
 # Special Thanks to:
 
-Kunal Ghosh, Co-founder (Vlsi System Design)
-Vikas Sachdeva (vlsideepdive) 
+- Kunal Ghosh, Co-founder (Vlsi System Design)
+- Vikas Sachdeva (vlsideepdive) 
 
 
 
