@@ -79,7 +79,7 @@ In above images, we can analyse the startpoint, endpoint, required time, data ar
       - Rise Slew: It is the transistion from 1 to 0 from 30% to 70%
       - Fall Slew: It is the transistion from 0 to 1 from 70% to 30%
       
-      ![20220207_142022](https://user-images.githubusercontent.com/98880516/152761138-8b30c5ef-6c79-4a26-a2c4-ce8a936f837c.jpg)
+![20220207_142022](https://user-images.githubusercontent.com/98880516/152761138-8b30c5ef-6c79-4a26-a2c4-ce8a936f837c.jpg)
  
 - Load Analysis depends upon min and max capacitance on ports and pins and fanout load on ports and output pins.
 - Latch Based designs allow more flexibility in timing meaning that we can borrow timing from latch to meet the timing whether it will be setup or hold but this is not possible in case of flip flops.
