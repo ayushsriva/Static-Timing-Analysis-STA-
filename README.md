@@ -26,6 +26,10 @@ As we know that how much timing plays a very important role in meeting the desig
     - Input to Reg
     - Reg to Reg
     - Output to Reg
+    
+   ![20220207_141820](https://user-images.githubusercontent.com/98880516/152760663-c5fb3722-0810-47f4-869f-e5c35d674ac4.jpg)
+
+    
 3.	Startpoint:  Usually input port or clock pin of flop/register.
 4.	Endpoint:  Usually output port or register data pin.
 5.	Hold Check:  It is time time required after the active transition of a clock so, the data has to be maintained at stable state.
