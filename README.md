@@ -79,6 +79,8 @@ In above images, we can analyse the startpoint, endpoint, required time, data ar
       - Rise Slew: It is the transistion from 1 to 0 from 30% to 70%
       - Fall Slew: It is the transistion from 0 to 1 from 70% to 30%
       
+      ![20220207_142022](https://user-images.githubusercontent.com/98880516/152761138-8b30c5ef-6c79-4a26-a2c4-ce8a936f837c.jpg)
+ 
 - Load Analysis depends upon min and max capacitance on ports and pins and fanout load on ports and output pins.
 - Latch Based designs allow more flexibility in timing meaning that we can borrow timing from latch to meet the timing whether it will be setup or hold but this is not possible in case of flip flops.
 - STA text report contains the lots of information in it.
@@ -168,6 +170,9 @@ In the above image, we can see loading libraries, loading netlist, loading sdc, 
 
 # Day 4:
 - Crosstalk: Noise caused by coupling of switching activity of the victim with switching activity of aggressors.
+
+![20220207_141925](https://user-images.githubusercontent.com/98880516/152761459-d1e4f3ca-e8c5-4f3a-9d90-c8aacc29547b.jpg)
+
 - A steady signal net can have a glitch due to charge transfered by switching.
 - Global prcoess variation means the random and systematic variations which may occur in the chip. This chip may include On Chip Variation(OCV) effects.
 - Clock gating checks are necessary to avoid the large power dissipation when clock is not in use in our design
